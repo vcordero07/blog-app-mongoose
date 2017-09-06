@@ -1,0 +1,31 @@
+{
+  "name": "blog-app-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blogPostRouter.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcordero07/blog-app-mongoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcordero07/blog-app-mongoose/issues"
+  },
+  "homepage": "https://github.com/vcordero07/blog-app-mongoose#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.0"
+  }
+}
